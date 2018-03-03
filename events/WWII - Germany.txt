@@ -5091,7 +5091,6 @@ country_event = {
 			transfer_state = 763
 			transfer_state = 539
 			transfer_state = 660
-			transfer_state = 268
 		}
 	}
 }
@@ -5252,10 +5251,9 @@ country_event = {
 
 	option = {
 		name = ww2_germany.246.a
-		GE1 = {
-			transfer_state = 550
-		}
 		DER = {
+			transfer_state = 268
+			transfer_state = 550
 			transfer_state = 559
 		}
 		TUR = {
