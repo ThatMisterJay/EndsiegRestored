@@ -10,17 +10,17 @@ country_event = {
 	title = whalecum.1.t
 	desc = whalecum.1.d
 	picture = GFX_report_event_welcome_1910
-	
+
 	fire_only_once = yes
 
 	trigger = {
 		NOT = { date > 1911.1.1 }
 		date > 1910.1.1
-		tag = ROOT
+		tag = GER
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = whalecum.1.a
 		set_global_flag = welcome_event_1910
@@ -191,20 +191,20 @@ country_event = {
 	title = whalecum.2.t
 	desc = whalecum.2.d
 	picture = GFX_report_event_welcome_1914
-	
+
 	fire_only_once = yes
 
 	trigger = {
 		NOT = { date > 1915.1.1 }
 		NOT = { has_global_flag = welcome_event_1910 }
 		date > 1913.1.1
-		tag = ROOT
+		tag = GER
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
-		name = whalecum.2.a	
+		name = whalecum.2.a
 		set_global_flag = welcome_event_1914
 		hidden_effect = {
 			TUR = {
@@ -376,7 +376,7 @@ country_event = {
 	title = whalecum.3.t
 	desc = whalecum.3.d
 	picture = GFX_report_event_welcome_1918
-	
+
 	fire_only_once = yes
 
 	trigger = {
@@ -384,11 +384,11 @@ country_event = {
 		NOT = { has_global_flag = welcome_event_1914 }
 		NOT = { has_global_flag = welcome_event_1910 }
 		date > 1917.1.1
-		tag = ROOT
+		tag = GER
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = whalecum.3.a
 		set_global_flag = welcome_event_1918
@@ -521,18 +521,18 @@ country_event = {
 	title = whalecum.4.t
 	desc = whalecum.4.d
 	picture = GFX_report_event_welcome_1943
-	
+
 	fire_only_once = yes
 
 	trigger = {
 		NOT = { date > 1944.1.1 }
 		NOT = { has_global_flag = welcome_event_1944 }
 		date > 1943.1.1
-		tag = ROOT
+		tag = GER
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = whalecum.4.a
 		set_global_flag = welcome_event_1943
@@ -559,109 +559,6 @@ country_event = {
 			set_province_name = { id = 9833 name = "Istanbul" }
 			set_province_name = { id = 11747 name = "Ankara" }
 			# Axis Stuffs
-			GER = {
-				puppet = SLO
-				puppet = CRO
-				add_to_faction = ITA
-				add_manpower = -525600
-			}
-			# Diplomacy
-			BUL = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			ROM = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			ROM = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			HUN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			HUN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			ITA = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			ITA = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			SLO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			SLO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			CRO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			CRO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			SER = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			SER = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			MNT = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			MNT = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			FIN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
 			every_state = {
 				limit = {
 					is_core_of = GE1
@@ -795,7 +692,7 @@ country_event = {
 
 				remove_core_of = ITA
 			}
-		}			
+		}
 	}
 }
 
@@ -805,18 +702,18 @@ country_event = {
 	title = whalecum.5.t
 	desc = whalecum.5.d
 	picture = GFX_report_event_welcome_1944
-	
+
 	fire_only_once = yes
 
 	trigger = {
 		NOT = { date > 1944.7.1 }
 		NOT = { has_global_flag = welcome_event_1943 }
 		date > 1944.6.19
-		tag = ROOT
+		tag = GER
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = whalecum.5.a
 		set_global_flag = welcome_event_1944
@@ -843,89 +740,6 @@ country_event = {
 			set_province_name = { id = 9833 name = "Istanbul" }
 			set_province_name = { id = 11747 name = "Ankara" }
 			# Axis Stuffs
-			GER = {
-				puppet = SLO
-				puppet = CRO
-				add_manpower = -6560000
-			}
-			BUL = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			BUL = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			HUN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			HUN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			ROM = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			ROM = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			ITR = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			ITR = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			SLO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			SLO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			CRO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			CRO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			FIN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
 			every_state = {
 				limit = {
 					is_core_of = SO1
@@ -1069,7 +883,7 @@ country_event = {
 	title = whalecum.6.t
 	desc = whalecum.6.d
 	picture = GFX_report_event_welcome_1944_d
-	
+
 	fire_only_once = yes
 
 	trigger = {
@@ -1078,11 +892,11 @@ country_event = {
 		NOT = { has_global_flag = welcome_event_1944 }
 		NOT = { has_global_flag = welcome_event_1943 }
 		date > 1944.12.15
-		tag = ROOT
+		tag = GER
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = whalecum.6.a
 		set_global_flag = december_welcome_event_1944
@@ -1109,66 +923,6 @@ country_event = {
 			set_province_name = { id = 9833 name = "Istanbul" }
 			set_province_name = { id = 11747 name = "Ankara" }
 			# Axis Stuffs
-			GER = {
-				puppet = SLO
-				puppet = HUN
-				puppet = CRO
-				add_manpower = -7870000
-			}
-			ITR = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			ITR = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			SLO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			SLO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			HUN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			HUN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			CRO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			CRO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			FIN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
 			every_state = {
 				limit = {
 					is_core_of = GE1
@@ -1312,7 +1066,7 @@ country_event = {
 	title = whalecum.7.t
 	desc = whalecum.7.d
 	picture = GFX_report_event_welcome_1945
-	
+
 	fire_only_once = yes
 
 	trigger = {
@@ -1321,11 +1075,11 @@ country_event = {
 		NOT = { has_global_flag = welcome_event_1944 }
 		NOT = { has_global_flag = december_welcome_event_1944 }
 		date > 1945.1.1
-		tag = ROOT
+		tag = GER
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = whalecum.7.a
 		set_global_flag = welcome_event_1945
@@ -1352,66 +1106,6 @@ country_event = {
 			set_province_name = { id = 9833 name = "Istanbul" }
 			set_province_name = { id = 11747 name = "Ankara" }
 			# Axis Stuffs
-			GER = {
-				puppet = SLO
-				puppet = HUN
-				puppet = CRO
-				add_manpower = -7870000
-			}
-			ITR = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			ITR = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			SLO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			SLO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			HUN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			HUN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			CRO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = ENG
-				}
-			}
-			CRO = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
-			FIN = {
-				add_to_war = {
-					targeted_alliance = GER
-					enemy = SOV
-				}
-			}
 			every_state = {
 				limit = {
 					is_core_of = GE1
@@ -1555,18 +1249,18 @@ country_event = {
 	title = whalecum.8.t
 	desc = whalecum.8.d
 	picture = GFX_report_event_welcome_1948
-	
+
 	fire_only_once = yes
 
 	trigger = {
 		NOT = { date > 1949.1.1 }
 		NOT = { has_global_flag = welcome_event_1945 }
 		date > 1948.1.1
-		tag = ROOT
+		tag = GER
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	option = {
 		name = whalecum.8.a
 		set_global_flag = welcome_event_1948
@@ -1722,5 +1416,3 @@ country_event = {
 		}
 	}
 }
-
-
