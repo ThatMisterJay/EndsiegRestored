@@ -644,6 +644,10 @@ puppet = AL1
 		type = annex_everything
 	}
 	declare_war_on = {
+		target = HOL
+		type = annex_everything
+	}
+	declare_war_on = {
 		target = ANA
 		type = annex_everything
 	}

@@ -16,7 +16,7 @@ country_event = {
 	trigger = {
 		NOT = { date > 1911.1.1 }
 		date > 1910.1.1
-		tag = GER
+		tag = GE1
 	}
 
 	mean_time_to_happen = { days = 1 }
@@ -198,7 +198,7 @@ country_event = {
 		NOT = { date > 1915.1.1 }
 		NOT = { has_global_flag = welcome_event_1910 }
 		date > 1913.1.1
-		tag = GER
+		tag = GE1
 	}
 
 	mean_time_to_happen = { days = 1 }
@@ -384,7 +384,7 @@ country_event = {
 		NOT = { has_global_flag = welcome_event_1914 }
 		NOT = { has_global_flag = welcome_event_1910 }
 		date > 1917.1.1
-		tag = GER
+		tag = GE1
 	}
 
 	mean_time_to_happen = { days = 1 }

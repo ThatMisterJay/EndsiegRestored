@@ -10,17 +10,17 @@ country_event = {
 	title = italy.1.t
 	desc = italy.1.d
 	picture = GFX_report_event_march_on_rome
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		NOT = { date > 1932.12.1 }
 		tag = ITA
 		date > 1922.10.21
 	}
-	
+
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		set_global_flag = march_on_rome
 	}
@@ -39,12 +39,12 @@ country_event = {
 
 					popularity = 0
 				}
-		
+
 				fascism = {
 
 					popularity = 50
-				}	
-		
+				}
+
 				paternal_autocrat = {
 
 					popularity = 0
@@ -54,7 +54,7 @@ country_event = {
 
 					popularity = 20
 				}
-		
+
 				market_liberal = {
 
 					popularity = 5
@@ -111,9 +111,9 @@ country_event = {
 	title = italy.2.t
 	desc = italy.2.d
 	picture = GFX_report_event_tellini
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		NOT = { date > 1932.12.1 }
 		tag = ITA
@@ -122,7 +122,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		set_global_flag = tellini_murdered
 	}
@@ -137,9 +137,9 @@ country_event = {
 	title = italy.3.t
 	desc = italy.2.d
 	picture = GFX_report_event_corfu_incident
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		NOT = { date > 1932.12.1 }
 		tag = ITA
@@ -148,7 +148,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		set_global_flag = corfu_incident
 	}
@@ -167,9 +167,9 @@ country_event = {
 	title = italy.4.t
 	desc = italy.4.d
 	picture = GFX_report_event_ceasefire
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		NOT = { date > 1932.12.1 }
 		tag = ITA
@@ -180,7 +180,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		set_global_flag = corfu_incident_resolved
 	}
@@ -199,9 +199,9 @@ country_event = {
 	title = italy.5.t
 	desc = italy.5.d
 	picture = GFX_report_event_ceasefire
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		NOT = { date > 1932.12.1 }
 		tag = ITA
@@ -210,7 +210,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		set_global_flag = corfu_incident_evolves
 	}
@@ -245,9 +245,9 @@ country_event = {
 	title = italy.6.t
 	desc = italy.6.d
 	picture = GFX_report_event_ita_fascist_party
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		NOT = { date > 1932.12.1 }
 		tag = ITA
@@ -255,7 +255,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		set_global_flag = NFP_founded
 	}
@@ -270,9 +270,9 @@ country_event = {
 	title = italy.7.t
 	desc = italy.7.d
 	picture = GFX_report_event_italy_surrenders
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		NOT = { date > 1944.1.1 }
 		date > 1943.9.8
@@ -285,7 +285,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		set_global_flag = italy_surrender
 	}
@@ -299,7 +299,7 @@ country_event = {
 			transfer_state = 44
 			transfer_state = 32
 			transfer_state = 21
-			transfer_state = 39	
+			transfer_state = 39
 			transfer_state = 736
 			transfer_state = 735
 			transfer_state = 793
@@ -309,6 +309,7 @@ country_event = {
 			transfer_state = 47
 			transfer_state = 185
 			transfer_state = 186
+			transfer_state = 748
 			transfer_state = 749
 			transfer_state = 750
 		}
@@ -336,9 +337,9 @@ country_event = {
 	title = italy.8.t
 	desc = italy.8.d
 	picture = GFX_report_event_mussolini_arrested
-	
+
 	fire_only_once = yes
-	
+
 	trigger = {
 		NOT = { date > 1944.1.1 }
 		tag = ITA
@@ -346,7 +347,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = { days = 1 }
-	
+
 	immediate = {
 		set_global_flag = mussolini_gone
 	}
@@ -370,12 +371,12 @@ country_event = {
 
 					popularity = 0
 				}
-		
+
 				fascism = {
 
 					popularity = 0
-				}	
-		
+				}
+
 				paternal_autocrat = {
 
 					popularity = 0
@@ -385,7 +386,7 @@ country_event = {
 
 					popularity = 100
 				}
-		
+
 				market_liberal = {
 
 					popularity = 0
@@ -435,13 +436,3 @@ country_event = {
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-

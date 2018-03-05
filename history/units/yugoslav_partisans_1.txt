@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Partisans"	
+	name = "Partisans"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -9,11 +9,11 @@
 		infantry = { x = 1 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }   
+		engineer = { x = 0 y = 0 }
 	}
 }
 division_template = {
-	name = "Pesadijska Divizija"	
+	name = "Pesadijska Divizija"
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -26,11 +26,11 @@ division_template = {
 		infantry = { x = 3 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }   
+		engineer = { x = 0 y = 0 }
 	}
 }
 division_template = {
-	name = "Gorska Pesadija"	
+	name = "Gorska Pesadija"
 
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
@@ -39,7 +39,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Konjička Divizija" 
+	name = "Konjička Divizija"
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -53,7 +53,7 @@ division_template = {
 	name = "Tenkovski Bataljon"
 	regiments = {
 		light_armor = { x = 0 y = 0 }
-		infantry = { x = 1 y = 0 }    
+		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 	}
@@ -61,22 +61,20 @@ division_template = {
 
 
 units = {
-	division = {			
+	division = {
 		name = "Yugoslav Partisans"
 		location = 3922
 		division_template = "Partisans"
-		force_equipment_variants = { infantry_equipment_1 = { owner = "YUG" } } 
+		force_equipment_variants = { infantry_equipment_1 = { owner = "YUG" } }
 		start_experience_factor = 0.7
-		start_equipment_factor = 1.0
+		start_equipment_factor = 0.3
 	}
-	division = {			
+	division = {
 		name = "Yugoslav Partisans"
 		location = 9602
-		division_template = "Partisans"	
-		force_equipment_variants = { infantry_equipment_1 = { owner = "YUG" } } 
+		division_template = "Partisans"
+		force_equipment_variants = { infantry_equipment_1 = { owner = "YUG" } }
 		start_experience_factor = 0.7
-		start_equipment_factor = 1.0
-	}			
+		start_equipment_factor = 0.3
+	}
 }
-
-

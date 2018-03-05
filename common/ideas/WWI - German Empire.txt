@@ -66,7 +66,7 @@ ideas = {
 			}
 
 			removal_cost = -1
-			
+
 			modifier = {
 				army_morale_factor = 0.025
 				army_org_factor = 0.025
@@ -784,20 +784,6 @@ ideas = {
 			}
 		}
 
-		mackensen = {
-
-
-			allowed = {
-				original_tag = GE1
-			}
-
-			traits = { army_chief_mackensen }
-
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
 		eichhorn = {
 
 
@@ -999,7 +985,7 @@ ideas = {
 				original_tag = GE1
 			}
 
-			traits = { army_regrouping_3 army_infantry_3 }
+			traits = { army_regrouping_2 army_infantry_1 }
 
 			ai_will_do = {
 				factor = 1.5

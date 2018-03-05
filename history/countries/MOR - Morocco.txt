@@ -1,4 +1,4 @@
-﻿capital = 293
+﻿capital = 461
 
 oob = "MOR_1910"
 
@@ -49,7 +49,7 @@ set_convoys = 5
 
 1905.1.1 = {
 	set_politics = {
-	
+
 		parties = {
 			national_socialist = {
 
@@ -60,12 +60,12 @@ set_convoys = 5
 
 				popularity = 0
 			}
-		
+
 			fascism = {
 
 				popularity = 0
-			}	
-		
+			}
+
 			paternal_autocrat = {
 
 				popularity = 55
@@ -75,7 +75,7 @@ set_convoys = 5
 
 				popularity = 30
 			}
-		
+
 			market_liberal = {
 
 				popularity = 0
@@ -130,4 +130,3 @@ create_country_leader = {
 		#
 	}
 }
-

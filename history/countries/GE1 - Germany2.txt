@@ -6,13 +6,13 @@ oob = "GER_1910"
 set_technology = {
 # Armored Vehicles
 	armored_car = 1
-	armored_car2 = 1 
+	armored_car2 = 1
 	rations = 1
-	fuel = 1 
+	fuel = 1
 
 # Artillery
 	horse_artillery = 1
-	horse_artillery2 = 1 
+	horse_artillery2 = 1
 
 # Aircraft
 	experimental_aircraft = 1
@@ -22,7 +22,7 @@ set_technology = {
 	scout_plane = 1
 
 	air_armaments = 1
-	early_fighter = 1 
+	early_fighter = 1
 
 	light_bomb = 1
 	early_bomber = 1
@@ -32,7 +32,7 @@ set_technology = {
 
 # Tech Support
 	tech_support = 1
-	tech_engineers = 1	
+	tech_engineers = 1
 	tech_recon = 1
 	tech_maintenance_company = 1
 	tech_mortar_company1 = 1
@@ -48,14 +48,14 @@ set_technology = {
 	early_light_cruiser2 = 1
 	armored_frigate = 1
 	armored_cruiser = 1
-	improved_ac = 1 
+	improved_ac = 1
 	early_hc = 1
 	early_gwbc = 1
 	turret_bs = 1
 	pre_dread = 1
 	dreadnought = 1
 	dreadnought2 = 1
-	early_bs = 1  
+	early_bs = 1
 	exp_sub = 1
 	early_sub = 1
 	diesel_sub = 1
@@ -76,7 +76,7 @@ set_technology = {
 	machine_gun = 1
 
 # Industry
-	bunker = 1 
+	bunker = 1
 
 # Electronics
 	census_tabulating = 1
@@ -91,7 +91,7 @@ set_national_unity = 0.9
 
 1905.1.1 = {
 	set_politics = {
-	
+
 		parties = {
 			national_socialist = {
 
@@ -102,12 +102,12 @@ set_national_unity = 0.9
 
 				popularity = 0
 			}
-		
+
 			fascism = {
 
 				popularity = 0
-			}	
-		
+			}
+
 			paternal_autocrat = {
 
 				popularity = 54
@@ -117,7 +117,7 @@ set_national_unity = 0.9
 
 				popularity = 13
 			}
-		
+
 			market_liberal = {
 
 				popularity = 7
@@ -175,7 +175,7 @@ add_ideas = {
 	limited_conscription
 	censored_press
 	specialist_training
-	massive_education_investment	
+	massive_education_investment
 }
 
 create_country_leader = {
@@ -266,7 +266,7 @@ create_country_leader = {
 		skill = 6
 		id = 100101
 	}
-	
+
 	create_field_marshal = {
 		name = "Hermann von Eichorn"
 		picture = "Portrait_Germany_Hermann_von_Eichorn.dds"
@@ -274,7 +274,7 @@ create_country_leader = {
 		skill = 5
 		id = 5101
 	}
-	
+
 	create_field_marshal = {
 		name = "Paul von Hindenburg"
 		picture = "Portrait_Germany_Paul_von_Hindenburg.dds"
@@ -411,7 +411,7 @@ create_country_leader = {
 		skill = 4
 		id = 1029
 	}
-	
+
 	create_navy_leader = {
 		name = "Wilhelm Souchon"
 		picture = "Portrait_Germany_Wilhelm_Souchon.dds"
@@ -419,7 +419,7 @@ create_country_leader = {
 		skill = 4
 		id = 1030
 	}
-	
+
 	create_navy_leader = {
 		name = "Maximilian von Spee"
 		picture = "Portrait_Germany_Maximilian_von_Spee.dds"
@@ -427,7 +427,7 @@ create_country_leader = {
 		skill = 3
 		id = 1024
 	}
-	
+
 	create_navy_leader = {
 		name = "Adolf von Trotha"
 		picture = "Portrait_Germany_Adolf_von_Trotha.dds"
@@ -470,7 +470,7 @@ create_country_leader = {
 		skill = 6
 		id = 100102
 	}
-	
+
 	create_field_marshal = {
 		name = "Paul von Hindenburg"
 		picture = "Portrait_Germany_Paul_von_Hindenburg.dds"
@@ -606,7 +606,7 @@ create_country_leader = {
 		skill = 4
 		id = 51029
 	}
-	
+
 	create_navy_leader = {
 		name = "Wilhelm Souchon"
 		picture = "Portrait_Germany_Wilhelm_Souchon.dds"
@@ -614,7 +614,7 @@ create_country_leader = {
 		skill = 4
 		id = 51030
 	}
-	
+
 	create_navy_leader = {
 		name = "Maximilian von Spee"
 		picture = "Portrait_Germany_Maximilian_von_Spee.dds"
@@ -622,7 +622,7 @@ create_country_leader = {
 		skill = 3
 		id = 51024
 	}
-	
+
 	create_navy_leader = {
 		name = "Adolf von Trotha"
 		picture = "Portrait_Germany_Adolf_von_Trotha.dds"
@@ -680,7 +680,7 @@ create_country_leader = {
 	complete_national_focus = GE1_equipment_effort_1
 	complete_national_focus = GE1_artillery_effort_1
 	complete_national_focus = GE1_tactics_1
-	complete_national_focus = GE1_airfield_construction_1	
+	complete_national_focus = GE1_airfield_construction_1
 	complete_national_focus = GE1_infrastructure_effort_1
 	complete_national_focus = GE1_construction_effort_1
 	complete_national_focus = GE1_armament_effort_1
@@ -688,12 +688,12 @@ create_country_leader = {
 	complete_national_focus = GE1_tirpitz_expands_fleet
 	complete_national_focus = GE1_kaiser_expands_fleet
 	complete_national_focus = GE1_submarine_theory
-	
+
 	#adding ministers
-	add_ideas = {		
+	add_ideas = {
 	}
 
-	
+
 create_country_leader = {
 	name = "Kaiser Wilhelm II"
 	desc = "POLITICS_WILHELM_II_DESC"
@@ -701,7 +701,7 @@ create_country_leader = {
 	expire = "1966.1.1"
 	ideology = paternal_autocrat
 	traits = {
-		stern_imperialist1 
+		stern_imperialist1
 	}
 }
 
@@ -714,9 +714,9 @@ create_country_leader = {
 	# Armored Vehicles
 		armored_car = 1
 		armored_car2 = 1
-		armored_car3 = 1 
+		armored_car3 = 1
 		rations = 1
-		fuel = 1 
+		fuel = 1
 
 	# Artillery
 		horse_artillery = 1
@@ -737,14 +737,14 @@ create_country_leader = {
 
 	# Tech Support
 		tech_support = 1
-		tech_engineers = 1	
+		tech_engineers = 1
 		tech_recon = 1
 		tech_military_police = 1
 		tech_maintenance_company = 1
 		tech_mortar_company1 = 1
 
 	# Naval Doctrine
-		indirect_intervention = 1 
+		indirect_intervention = 1
 
 	# Naval Tech
 		torpedo_gunboat = 1
@@ -755,15 +755,15 @@ create_country_leader = {
 		early_light_cruiser2 = 1
 		armored_frigate = 1
 		armored_cruiser = 1
-		improved_ac = 1 
+		improved_ac = 1
 		early_hc = 1
 		early_gwbc = 1
 		improved_gwbc = 1
 		turret_bs = 1
 		pre_dread = 1
 		dreadnought = 1
-		dreadnought2 = 1 
-		early_bs = 1 
+		dreadnought2 = 1
+		early_bs = 1
 		exp_sub = 1
 		early_sub = 1
 
@@ -780,7 +780,7 @@ create_country_leader = {
 		tech_mountaineers = 1
 		early_support_weapons = 1
 		early_support_weapons2 = 1
-		early_support_weapons3 = 1 
+		early_support_weapons3 = 1
 		horses = 1
 		bicycles = 1
 		machine_gun = 1
@@ -798,7 +798,7 @@ create_country_leader = {
 1918.1.1 = {
 
 	add_political_power = 1500
-	
+
 	add_to_faction = RKP
 	add_to_faction = TUR
 	add_to_faction = GE1
@@ -806,9 +806,9 @@ create_country_leader = {
 	add_to_faction = RMM
 	add_to_faction = DER
 	add_to_faction = AUH
-	add_to_faction = BLR		
+	add_to_faction = BLR
 	add_to_faction = UKR
-	add_to_faction = UBD	
+	add_to_faction = UBD
 	add_to_faction = LIT
 
 	puppet = RKP
@@ -838,7 +838,7 @@ create_country_leader = {
 	complete_national_focus = GE1_equipment_effort_1
 	complete_national_focus = GE1_artillery_effort_1
 	complete_national_focus = GE1_tactics_1
-	complete_national_focus = GE1_airfield_construction_1	
+	complete_national_focus = GE1_airfield_construction_1
 	complete_national_focus = GE1_infrastructure_effort_1
 	complete_national_focus = GE1_construction_effort_1
 	complete_national_focus = GE1_armament_effort_1
@@ -880,7 +880,7 @@ create_country_leader = {
 	complete_national_focus = GE1_gas_mask_3
 	complete_national_focus = GE1_equipment_effort_2
 	complete_national_focus = GE1_equipment_effort_3
-	complete_national_focus = GE1_artillery_effort_2	
+	complete_national_focus = GE1_artillery_effort_2
 	complete_national_focus = GE1_artillery_effort_3
 	complete_national_focus = GE1_tactics_2
 	complete_national_focus = GE1_tactics_3
@@ -905,9 +905,9 @@ create_country_leader = {
 	complete_national_focus = GE1_advisors_turkey
 	complete_national_focus = GE1_improved_fighter_1
 	complete_national_focus = GE1_improved_fighter_2
-	
+
 	#adding ministers
-	add_ideas = {		
+	add_ideas = {
 		shadow_kaiser
 		war_exhaustion
 		propaganda_press
@@ -948,17 +948,17 @@ create_country_leader = {
 		type = annex_everything
 	}
 
-	
-create_country_leader = {
-	name = "Kaiser Wilhelm II"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "Portrait_Germany_Kaiser_Wilhelm_II.dds"
-	expire = "1966.1.1"
-	ideology = paternal_autocrat
-	traits = {
-		stern_imperialist1 
+
+	create_country_leader = {
+		name = "Kaiser Wilhelm II"
+		desc = "POLITICS_WILHELM_II_DESC"
+		picture = "Portrait_Germany_Kaiser_Wilhelm_II.dds"
+		expire = "1966.1.1"
+		ideology = paternal_autocrat
+		traits = {
+			stern_imperialist1
+		}
 	}
-}
 
 	set_national_unity = 0.6
 	##set_stability = 45
@@ -976,7 +976,7 @@ create_country_leader = {
 		tank_gun = 1
 		early_tank = 1
 		rations = 1
-		fuel = 1 
+		fuel = 1
 
 	# Artillery
 		horse_artillery = 1
@@ -988,7 +988,7 @@ create_country_leader = {
 		howitzer2 = 1
 		superartillery = 1
 		anti_air = 1
-		early_antitank = 1 
+		early_antitank = 1
 
 	# Aircraft
 		experimental_aircraft = 1
@@ -997,11 +997,11 @@ create_country_leader = {
 		fuselage = 1
 		scout_plane = 1
 		air_armaments = 1
-		early_fighter = 1 
+		early_fighter = 1
 		basic_fighter = 1
 		improved_fighter = 1
 		torpedo_bomb = 1
-		naval_fuel_tank = 1 
+		naval_fuel_tank = 1
 		naval_air_frame = 1
 		light_bomb = 1
 		early_bomber = 1
@@ -1014,11 +1014,12 @@ create_country_leader = {
 		bomb_dropping = 1
 		tas_concept = 1
 		air_counter_air = 1
+		force_substitution = 1
 		flying_circus = 1
 
 	# Tech Support
 		tech_support = 1
-		tech_engineers = 1	
+		tech_engineers = 1
 		tech_engineers2 = 1
 		tech_engineers3 = 1
 		tech_recon = 1
@@ -1035,11 +1036,11 @@ create_country_leader = {
 		tech_mortar_company3 = 1
 
 	# Naval Doctrine
-		indirect_intervention = 1 
-		trade_interdiction2 = 1 
-		distracting_maneuver = 1 
-		naval_baiting = 1 
-		convoy_raiding = 1 
+		indirect_intervention = 1
+		trade_interdiction2 = 1
+		distracting_maneuver = 1
+		naval_baiting = 1
+		convoy_raiding = 1
 
 	# Naval Tech
 		torpedo_gunboat = 1
@@ -1078,7 +1079,7 @@ create_country_leader = {
 		counterattack = 1
 		schwerepunkt = 1
 		defensive_attrition = 1
-		seperate_armed_forces = 1	
+		seperate_armed_forces = 1
 		central_control = 1
 
 	# Infantry
@@ -1122,8 +1123,5 @@ create_country_leader = {
 		census_tabulating = 1
 		automatic_feed_tab = 1
 		early_infantry_weapons5 = 1
-    	}
+    }
 }
-
-
-
