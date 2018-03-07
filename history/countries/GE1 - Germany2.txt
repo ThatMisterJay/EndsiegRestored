@@ -694,16 +694,16 @@ create_country_leader = {
 	}
 
 
-create_country_leader = {
-	name = "Kaiser Wilhelm II"
-	desc = "POLITICS_WILHELM_II_DESC"
-	picture = "Portrait_Germany_Kaiser_Wilhelm_II.dds"
-	expire = "1966.1.1"
-	ideology = paternal_autocrat
-	traits = {
-		stern_imperialist1
+	create_country_leader = {
+		name = "Kaiser Wilhelm II"
+		desc = "POLITICS_WILHELM_II_DESC"
+		picture = "Portrait_Germany_Kaiser_Wilhelm_II.dds"
+		expire = "1966.1.1"
+		ideology = paternal_autocrat
+		traits = {
+			stern_imperialist1
+		}
 	}
-}
 
 
 	set_national_unity = 0.8

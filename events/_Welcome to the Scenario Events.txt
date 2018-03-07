@@ -28,14 +28,6 @@ country_event = {
 			TUR = {
 				set_capital = 341
 			}
-			DER = {
-				add_manpower = 215463
-				add_equipment_to_stockpile = { type = early_infantry_equipment_1 amount = 15000 producer = DER }
-			}
-			SER = {
-				add_manpower = 215463
-				add_equipment_to_stockpile = { type = early_infantry_equipment_1 amount = 10000 producer = SER }
-			}
 			BNN = {
 				add_manpower = 75624
 				add_equipment_to_stockpile = { type = early_infantry_equipment_1 amount = 10000 producer = BNN }
@@ -213,14 +205,6 @@ country_event = {
 			DER = {
 				add_manpower = 215463
 				add_equipment_to_stockpile = { type = early_infantry_equipment_1 amount = 15000 producer = DER }
-			}
-			SER = {
-				add_manpower = 215463
-				add_equipment_to_stockpile = { type = early_infantry_equipment_1 amount = 10000 producer = SER }
-			}
-			BNN = {
-				add_manpower = 75624
-				add_equipment_to_stockpile = { type = early_infantry_equipment_1 amount = 10000 producer = BNN }
 			}
 			GRE = {
 				add_manpower = 195463

@@ -3,7 +3,7 @@
 oob = "SER_1910"
 
 complete_national_focus = G41_industrialisation_effort
-complete_national_focus = G41_pre_industrial_path_1	
+complete_national_focus = G41_pre_industrial_path_1
 complete_national_focus = G41_pre_industrial_path_2
 complete_national_focus = G41_pre_industrial_path_3
 complete_national_focus = G41_early_industrial_path_1
@@ -29,8 +29,8 @@ set_technology = {
 
 # Armor
 	fuel = 1
-	rations = 1 
-# Artillery 
+	rations = 1
+# Artillery
 	horse_artillery = 1
 
 # Air Tech
@@ -40,10 +40,10 @@ set_technology = {
 
 # Tech Support
 	tech_support = 1
-	tech_engineers = 1	
+	tech_engineers = 1
 	tech_recon = 1
 
-# Naval Tech 
+# Naval Tech
 
 	torpedo_gunboat = 1
 	fleet_destroyer = 1
@@ -65,7 +65,7 @@ set_technology = {
 	bicycles = 1
 
 # Industry
-	
+
 
 # Electronics
 	census_tabulating = 1
@@ -75,7 +75,7 @@ set_convoys = 0
 
 1905.1.1 = {
 	set_politics = {
-	
+
 		parties = {
 			national_socialist = {
 
@@ -86,12 +86,12 @@ set_convoys = 0
 
 				popularity = 0
 			}
-		
+
 			fascism = {
 
 				popularity = 0
-			}	
-		
+			}
+
 			paternal_autocrat = {
 
 				popularity = 48
@@ -101,7 +101,7 @@ set_convoys = 0
 
 				popularity = 30
 			}
-		
+
 			market_liberal = {
 
 				popularity = 0
@@ -156,86 +156,80 @@ create_country_leader = {
 		stout_defender
 	}
 }
-		
-1910.1.1 = {
-		create_field_marshal = {
-			name = "Radomir Putnik"
-			id = 40300
-			picture = "Portrait_Serbia_Radomir_Putnik.dds"
-			traits = { thorough_planner defensive_doctrine organisational_leader }
-			skill = 6
-		}
 
-		create_corps_commander = {
-			name = "Petar Bojovic"
-			id = 40301
-			picture = "Portrait_Serbia_Petar_Bojovic.dds"
-			traits = { trickster fortress_buster ranger }
-			skill = 4	
-		}
-		
-		create_corps_commander = {
-			name = "Stepa Stepanovic"
-			id = 40302
-			picture = "Portrait_Serbia_Stepa_Stepanjov.dds"
-			traits = { trickster fortress_buster trait_engineer }
-			skill = 4
-		}
-		
-		create_corps_commander = {
-			name = "Zivojin Misic"
-			id = 40303
-			picture = "Portrait_Serbia_Zivojin_Misic.dds"
-			traits = { commando bearer_of_artillery }
-			skill = 6	
-		}
-		
-		create_corps_commander = {
-			name = "Pavle Jurisic Sturm"
-			id = 40304
-			picture = "Portrait_Serbia_Pavle_Jurisic_Sturm.dds"
-			traits = { trickster urban_assault_specialist }
-			skill = 5
-		}
+1910.1.1 = {
+	create_field_marshal = {
+		name = "Radomir Putnik"
+		id = 40300
+		picture = "Portrait_Serbia_Radomir_Putnik.dds"
+		traits = { thorough_planner defensive_doctrine organisational_leader }
+		skill = 6
+	}
+
+	create_corps_commander = {
+		name = "Petar Bojovic"
+		id = 40301
+		picture = "Portrait_Serbia_Petar_Bojovic.dds"
+		traits = { trickster fortress_buster ranger }
+		skill = 4
+	}
+
+	create_corps_commander = {
+		name = "Stepa Stepanovic"
+		id = 40302
+		picture = "Portrait_Serbia_Stepa_Stepanjov.dds"
+		traits = { trickster fortress_buster trait_engineer }
+		skill = 4
+	}
+
+	create_corps_commander = {
+		name = "Zivojin Misic"
+		id = 40303
+		picture = "Portrait_Serbia_Zivojin_Misic.dds"
+		traits = { commando bearer_of_artillery }
+		skill = 6
+	}
+
+	create_corps_commander = {
+		name = "Pavle Jurisic Sturm"
+		id = 40304
+		picture = "Portrait_Serbia_Pavle_Jurisic_Sturm.dds"
+		traits = { trickster urban_assault_specialist }
+		skill = 5
+	}
+
+	add_manpower = 215463
+	add_equipment_to_stockpile = { type = early_infantry_equipment_1 amount = 10000 producer = SER }
 }
 
 1914.1.1 = {
 
 	# Pol Sector
 	complete_national_focus = G41_political_effort
-	
+
 	# Army Secor
 	complete_national_focus = G41_20_cent_military
-	
-	
-	
 	complete_national_focus = G41_equipment_effort_1
-	
-	
-	
 	complete_national_focus = G41_doctrine_effort_1
-	
 	complete_national_focus = G41_support_weapons_1
-	
 	complete_national_focus = G41_armored_cars_1
-	
+
 	# Airforce Sector
 	complete_national_focus = G41_establish_airforce
-	
+
 	complete_national_focus = G41_powered_flight
 	complete_national_focus = G41_build_airframe
 	complete_national_focus = G41_build_fuselage
 	complete_national_focus = G41_scout_plane
-	
+
 	#  Industrial Sector
 	complete_national_focus = G41_industrial_effort
-	complete_national_focus = G41_airfield_construction_1	
+	complete_national_focus = G41_airfield_construction_1
 	complete_national_focus = G41_infrastructure_effort_1
 	complete_national_focus = G41_construction_effort_1
 	complete_national_focus = G41_armament_effort_1
 	complete_national_focus = G41_dockyard_1
-	
-	complete_national_focus = G41_pre_industrial_path_1	
+	complete_national_focus = G41_pre_industrial_path_1
 	complete_national_focus = G41_pre_industrial_path_2
 	complete_national_focus = G41_pre_industrial_path_3
 	complete_national_focus = G41_early_industrial_path_1
@@ -247,23 +241,27 @@ create_country_leader = {
 	complete_national_focus = G41_basic_industrial_path_4
 
 	add_political_power = 150
-	
+
 	#adding ministers
-	add_ideas = {		
+	add_ideas = {
 		#
 	}
 
-	
-create_country_leader = {
-	name = "Peter I"
-	desc = "POLITICS_PETER_I_DESC"
-	picture = "Portrait_Serbia_Peter_I.dds"
-	expire = "1966.1.1"
-	ideology = paternal_autocrat
-	traits = {
-		#
+
+	add_manpower = 215463
+	add_equipment_to_stockpile = { type = early_infantry_equipment_1 amount = 10000 producer = SER }
+
+
+	create_country_leader = {
+		name = "Peter I"
+		desc = "POLITICS_PETER_I_DESC"
+		picture = "Portrait_Serbia_Peter_I.dds"
+		expire = "1966.1.1"
+		ideology = paternal_autocrat
+		traits = {
+			#
+		}
 	}
-}
 
 
 
@@ -271,12 +269,12 @@ create_country_leader = {
 	oob = "SER_1914"
 	set_technology = {
 	# Starting tech
-		fuel = 1 
-		rations = 1 
+		fuel = 1
+		rations = 1
 	# Armor
 		armored_car = 1
 
-	# Artillery 
+	# Artillery
 		horse_artillery = 1
 		horse_artillery2 = 1
 
@@ -293,11 +291,11 @@ create_country_leader = {
 
 	# Tech Support
 		tech_support = 1
-		tech_engineers = 1	
+		tech_engineers = 1
 		tech_recon = 1
 		tech_mortar_company1 = 1
 
-	# Naval Tech 
+	# Naval Tech
 
 		#
 
@@ -332,43 +330,43 @@ create_country_leader = {
 
 	# Pol Sector
 	complete_national_focus = G41_political_effort
-	
+
 	# Army Secor
 	complete_national_focus = G41_20_cent_military
-	
-	
-	
+
+
+
 	complete_national_focus = G41_equipment_effort_1
-	
-	
-	
+
+
+
 	complete_national_focus = G41_doctrine_effort_1
-	
+
 	complete_national_focus = G41_support_weapons_1
-	
+
 	complete_national_focus = G41_armored_cars_1
-	
+
 	# Airforce Sector
 	complete_national_focus = G41_establish_airforce
 	complete_national_focus = G41_establish_airforce
-	
+
 	complete_national_focus = G41_powered_flight
 	complete_national_focus = G41_build_airframe
 	complete_national_focus = G41_build_fuselage
 	complete_national_focus = G41_scout_plane
-	
+
 	complete_national_focus = G41_air_armament
 	complete_national_focus = G41_fighter_1
-	
+
 	complete_national_focus = G41_pilot_training_1
 	complete_national_focus = G41_pilot_training_2
-	
+
 	complete_national_focus = G41_bomber_research
 	complete_national_focus = G41_bomber_1
-	
+
 	#  Industrial Sector
 	complete_national_focus = G41_industrial_effort
-	complete_national_focus = G41_airfield_construction_1	
+	complete_national_focus = G41_airfield_construction_1
 	complete_national_focus = G41_infrastructure_effort_1
 	complete_national_focus = G41_construction_effort_1
 	complete_national_focus = G41_armament_effort_1
@@ -379,8 +377,8 @@ create_country_leader = {
 	complete_national_focus = G41_construction_effort_3
 	complete_national_focus = G41_armament_effort_3
 	complete_national_focus = G41_dockyard_1
-	
-	complete_national_focus = G41_pre_industrial_path_1	
+
+	complete_national_focus = G41_pre_industrial_path_1
 	complete_national_focus = G41_pre_industrial_path_2
 	complete_national_focus = G41_pre_industrial_path_3
 	complete_national_focus = G41_early_industrial_path_1
@@ -390,18 +388,18 @@ create_country_leader = {
 	complete_national_focus = G41_basic_industrial_path_2
 	complete_national_focus = G41_basic_industrial_path_3
 	complete_national_focus = G41_basic_industrial_path_4
-	
+
 	# Naval Sector
 	complete_national_focus = G41_naval_effort
 
 	add_political_power = 1500
-	
+
 	#adding ministers
-	add_ideas = {		
+	add_ideas = {
 		#
 	}
 
-	
+
 create_country_leader = {
 	name = "Peter I"
 	desc = "POLITICS_PETER_I_DESC"
@@ -419,21 +417,21 @@ create_country_leader = {
 	oob = "SER_1918"
 	set_technology = {
 	# Starting tech
-		fuel = 1 
-		rations = 1 
+		fuel = 1
+		rations = 1
 	# Armor
 		armored_car = 1
-		armored_car2 = 1 
-		armored_car3 = 1 
+		armored_car2 = 1
+		armored_car3 = 1
 
-	# Artillery 
+	# Artillery
 		horse_artillery = 1
 		horse_artillery2 = 1
 		artillery_3 = 1
 		artillery_4 = 1
 		howitzer = 1
 		howitzer2 = 1
-		howitzer3 = 1 
+		howitzer3 = 1
 
 	# Air Tech
 		experimental_aircraft = 1
@@ -442,8 +440,8 @@ create_country_leader = {
 		fuselage = 1
 		scout_plane = 1
 		air_armaments = 1
-		early_fighter = 1 
-		basic_fighter = 1 
+		early_fighter = 1
+		basic_fighter = 1
 		light_bomb = 1
 
 	# Air Doctrine
@@ -456,7 +454,7 @@ create_country_leader = {
 
 	# Tech Support
 		tech_support = 1
-		tech_engineers = 1	
+		tech_engineers = 1
 		tech_engineers2 = 1
 		tech_recon = 1
 		tech_recon2 = 1
@@ -467,7 +465,7 @@ create_country_leader = {
 		tech_mortar_company1 = 1
 		tech_mortar_company2 = 1
 
-	# Naval Tech 
+	# Naval Tech
 
 		#
 
@@ -481,7 +479,7 @@ create_country_leader = {
 		counterattack = 1
 		schwerepunkt = 1
 		defensive_attrition = 1
-		seperate_armed_forces = 1	
+		seperate_armed_forces = 1
 		central_control = 1
 
 	# Infantry
@@ -520,7 +518,3 @@ create_country_leader = {
 		census_tabulating = 1
     	}
 }
-
-
-
-

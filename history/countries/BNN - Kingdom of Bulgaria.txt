@@ -3,7 +3,7 @@
 oob = "BUL_1910"
 
 complete_national_focus = G08_industrialisation_effort
-complete_national_focus = G08_pre_industrial_path_1	
+complete_national_focus = G08_pre_industrial_path_1
 complete_national_focus = G08_pre_industrial_path_2
 complete_national_focus = G08_pre_industrial_path_3
 complete_national_focus = G08_early_industrial_path_1
@@ -18,8 +18,8 @@ set_technology = {
 
 # Armor
 	fuel = 1
-	rations = 1 
-# Artillery 
+	rations = 1
+# Artillery
 	horse_artillery = 1
 
 # Air Tech
@@ -29,10 +29,10 @@ set_technology = {
 
 # Tech Support
 	tech_support = 1
-	tech_engineers = 1	
+	tech_engineers = 1
 	tech_recon = 1
 
-# Naval Tech 
+# Naval Tech
 
 	torpedo_gunboat = 1
 	fleet_destroyer = 1
@@ -54,7 +54,7 @@ set_technology = {
 	bicycles = 1
 
 # Industry
-	
+
 
 # Electronics
 	census_tabulating = 1
@@ -70,7 +70,7 @@ add_ideas = {
 set_convoys = 50
 1905.1.1 = {
 	set_politics = {
-	
+
 		parties = {
 			national_socialist = {
 
@@ -81,12 +81,12 @@ set_convoys = 50
 
 				popularity = 0
 			}
-		
+
 			fascism = {
 
 				popularity = 0
-			}	
-		
+			}
+
 			paternal_autocrat = {
 
 				popularity = 50
@@ -96,7 +96,7 @@ set_convoys = 50
 
 				popularity = 20
 			}
-		
+
 			market_liberal = {
 
 				popularity = 0
@@ -243,39 +243,39 @@ create_corps_commander = {
 
 	# Pol Sector
 	complete_national_focus = G08_political_effort
-	
+
 	# Army Secor
 	complete_national_focus = G08_20_cent_military
-	
-	
-	
+
+
+
 	complete_national_focus = G08_equipment_effort_1
-	
-	
-	
+
+
+
 	complete_national_focus = G08_doctrine_effort_1
-	
+
 	complete_national_focus = G08_support_weapons_1
-	
+
 	complete_national_focus = G08_armored_cars_1
-	
+
 	# Airforce Sector
 	complete_national_focus = G08_establish_airforce
-	
+
 	complete_national_focus = G08_powered_flight
 	complete_national_focus = G08_build_airframe
 	complete_national_focus = G08_build_fuselage
 	complete_national_focus = G08_scout_plane
-	
+
 	#  Industrial Sector
 	complete_national_focus = G08_industrial_effort
-	complete_national_focus = G08_airfield_construction_1	
+	complete_national_focus = G08_airfield_construction_1
 	complete_national_focus = G08_infrastructure_effort_1
 	complete_national_focus = G08_construction_effort_1
 	complete_national_focus = G08_armament_effort_1
 	complete_national_focus = G08_dockyard_1
-	
-	complete_national_focus = G08_pre_industrial_path_1	
+
+	complete_national_focus = G08_pre_industrial_path_1
 	complete_national_focus = G08_pre_industrial_path_2
 	complete_national_focus = G08_pre_industrial_path_3
 	complete_national_focus = G08_early_industrial_path_1
@@ -285,41 +285,43 @@ create_corps_commander = {
 	complete_national_focus = G08_basic_industrial_path_2
 	complete_national_focus = G08_basic_industrial_path_3
 	complete_national_focus = G08_basic_industrial_path_4
-	
+
 	# Naval Sector
 	complete_national_focus = G08_naval_effort
 
 	add_political_power = 150
-	
+
 	#adding ministers
-	add_ideas = {		
+	add_ideas = {
 		#
 	}
 
-	
-create_country_leader = {
-	name = "Tsar Ferdinand I"
-	desc = "POLITICS_FERDINAND_I_DESC"
-	picture = "Portrait_Bulgaria_Ferdinand_I.dds"
-	expire = "1965.1.1"
-	ideology = paternal_autocrat
-	traits = {
-		#
+
+	create_country_leader = {
+		name = "Tsar Ferdinand I"
+		desc = "POLITICS_FERDINAND_I_DESC"
+		picture = "Portrait_Bulgaria_Ferdinand_I.dds"
+		expire = "1965.1.1"
+		ideology = paternal_autocrat
+		traits = {
+			#
+		}
 	}
-}
 
 
+	add_manpower = 75624
+	add_equipment_to_stockpile = { type = early_infantry_equipment_1 amount = 10000 producer = BNN }
 
 	set_national_unity = 0.7
 	oob = "BUL_1914"
 	set_technology = {
 	# Starting tech
-		fuel = 1 
-		rations = 1 
+		fuel = 1
+		rations = 1
 	# Armor
 		armored_car = 1
 
-	# Artillery 
+	# Artillery
 		horse_artillery = 1
 		horse_artillery2 = 1
 
@@ -336,11 +338,11 @@ create_country_leader = {
 
 	# Tech Support
 		tech_support = 1
-		tech_engineers = 1	
+		tech_engineers = 1
 		tech_recon = 1
 		tech_mortar_company1 = 1
 
-	# Naval Tech 
+	# Naval Tech
 
 		torpedo_gunboat = 1
 		fleet_destroyer = 1
@@ -381,43 +383,43 @@ create_country_leader = {
 
 	# Pol Sector
 	complete_national_focus = G08_political_effort
-	
+
 	# Army Secor
 	complete_national_focus = G08_20_cent_military
-	
-	
-	
+
+
+
 	complete_national_focus = G08_equipment_effort_1
-	
-	
-	
+
+
+
 	complete_national_focus = G08_doctrine_effort_1
-	
+
 	complete_national_focus = G08_support_weapons_1
-	
+
 	complete_national_focus = G08_armored_cars_1
-	
+
 	# Airforce Sector
 	complete_national_focus = G08_establish_airforce
 	complete_national_focus = G08_establish_airforce
-	
+
 	complete_national_focus = G08_powered_flight
 	complete_national_focus = G08_build_airframe
 	complete_national_focus = G08_build_fuselage
 	complete_national_focus = G08_scout_plane
-	
+
 	complete_national_focus = G08_air_armament
 	complete_national_focus = G08_fighter_1
-	
+
 	complete_national_focus = G08_pilot_training_1
 	complete_national_focus = G08_pilot_training_2
-	
+
 	complete_national_focus = G08_bomber_research
 	complete_national_focus = G08_bomber_1
-	
+
 	#  Industrial Sector
 	complete_national_focus = G08_industrial_effort
-	complete_national_focus = G08_airfield_construction_1	
+	complete_national_focus = G08_airfield_construction_1
 	complete_national_focus = G08_infrastructure_effort_1
 	complete_national_focus = G08_construction_effort_1
 	complete_national_focus = G08_armament_effort_1
@@ -428,8 +430,8 @@ create_country_leader = {
 	complete_national_focus = G08_construction_effort_3
 	complete_national_focus = G08_armament_effort_3
 	complete_national_focus = G08_dockyard_1
-	
-	complete_national_focus = G08_pre_industrial_path_1	
+
+	complete_national_focus = G08_pre_industrial_path_1
 	complete_national_focus = G08_pre_industrial_path_2
 	complete_national_focus = G08_pre_industrial_path_3
 	complete_national_focus = G08_early_industrial_path_1
@@ -439,18 +441,18 @@ create_country_leader = {
 	complete_national_focus = G08_basic_industrial_path_2
 	complete_national_focus = G08_basic_industrial_path_3
 	complete_national_focus = G08_basic_industrial_path_4
-	
+
 	# Naval Sector
 	complete_national_focus = G08_naval_effort
 
 	add_political_power = 1500
-	
+
 	#adding ministers
-	add_ideas = {		
+	add_ideas = {
 		propaganda_press
 	}
 
-	
+
 create_country_leader = {
 	name = "Tsar Ferdinand I"
 	desc = "POLITICS_FERDINAND_I_DESC"
@@ -479,11 +481,11 @@ create_country_leader = {
 		fuselage = 1
 		scout_plane = 1
 		air_armaments = 1
-		early_fighter = 1 
+		early_fighter = 1
 		light_bomb = 1
 		powered_flight = 1
 		air_recon = 1
-		tech_engineers = 1	
+		tech_engineers = 1
 		tech_recon = 1
 		rations = 1
 		fuel = 1
@@ -506,7 +508,7 @@ create_country_leader = {
 		counterattack = 1
 		schwerepunkt = 1
 		defensive_attrition = 1
-		seperate_armed_forces = 1	
+		seperate_armed_forces = 1
 		central_control = 1
 		early_infantry_weapons = 1
 		early_infantry_weapons2 = 1
