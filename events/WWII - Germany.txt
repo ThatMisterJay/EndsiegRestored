@@ -1090,7 +1090,6 @@ country_event = {
 		tag = GER
 		NOT = { date > 1944.12.1 }
 		date > 1944.10.13
-		NOT = { has_global_flag = welcome_event_1943 }
 	}
 
 	mean_time_to_happen = { days = 1 }

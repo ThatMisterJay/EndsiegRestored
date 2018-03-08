@@ -2,7 +2,7 @@ state={
 	id=85
 	name="STATE_85"
 	manpower = 1080100
-	
+
 	state_category = city
 	history={
 		owner = GE1
@@ -44,6 +44,8 @@ state={
 		1945.1.1 = {
 			controller = GER
 			owner = SOV
+			362 = { bunker = 4 }
+			6332 = { bunker = 3 }
 			GER = {
 				set_province_controller = 362
 			}
@@ -55,6 +57,6 @@ state={
 	}
 
 	provinces={
-		279 334 362 389 3295 3324 9263 
+		279 334 362 389 3295 3324 9263
 	}
 }
