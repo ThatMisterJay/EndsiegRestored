@@ -637,7 +637,6 @@ puppet = AL1
 	puppet = CRO
 	puppet = SLO
 	add_to_faction = ITA
-	add_manpower = -525600
 
 	declare_war_on = {
 		target = FRF
@@ -1126,7 +1125,6 @@ create_navy_leader = {
 		puppet = SLO
 		puppet = CRO
 		add_to_faction = ITA
-		add_manpower = -6560000
 	}
 	# Diplomacy
 	BUL = {
@@ -1825,7 +1823,6 @@ create_country_leader = {
 	puppet = CRO
 	puppet = SLO
 	puppet = HUN
-	add_manpower = -7870000
 	ITR = {
 		add_to_war = {
 			targeted_alliance = GER

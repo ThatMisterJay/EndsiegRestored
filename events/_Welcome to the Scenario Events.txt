@@ -543,6 +543,9 @@ country_event = {
 			set_province_name = { id = 9833 name = "Istanbul" }
 			set_province_name = { id = 11747 name = "Ankara" }
 			# Axis Stuffs
+			GER = {
+				add_manpower = -809000
+			}
 			every_state = {
 				limit = {
 					is_core_of = GE1
@@ -724,6 +727,10 @@ country_event = {
 			set_province_name = { id = 9833 name = "Istanbul" }
 			set_province_name = { id = 11747 name = "Ankara" }
 			# Axis Stuffs
+			GER = {
+				add_manpower = -1510000
+				add_equipment_to_stockpile = { type = early_infantry_equipment_2 amount = 100000 producer = GER }
+			}
 			every_state = {
 				limit = {
 					is_core_of = SO1
@@ -907,6 +914,10 @@ country_event = {
 			set_province_name = { id = 9833 name = "Istanbul" }
 			set_province_name = { id = 11747 name = "Ankara" }
 			# Axis Stuffs
+			GER = {
+				add_manpower = -2743000
+				add_equipment_to_stockpile = { type = early_infantry_equipment_2 amount = 40000 producer = GER }
+			}
 			every_state = {
 				limit = {
 					is_core_of = GE1
@@ -1090,6 +1101,10 @@ country_event = {
 			set_province_name = { id = 9833 name = "Istanbul" }
 			set_province_name = { id = 11747 name = "Ankara" }
 			# Axis Stuffs
+			GER = {
+				add_manpower = -3626000
+				add_equipment_to_stockpile = { type = early_infantry_equipment_2 amount = 850000 producer = GER }
+			}
 			every_state = {
 				limit = {
 					is_core_of = GE1

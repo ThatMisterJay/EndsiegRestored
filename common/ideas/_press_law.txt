@@ -18,7 +18,8 @@ ideas = {
 			modifier = {
 				unity_factor = -0.05
 				drift_defence_factor = -0.1
-				justify_war_goal_time = 0.75
+				justify_war_goal_time = 0.50
+				enemy_justify_war_goal_time = 0.15
 			}
 
 			cancel_if_invalid = no
@@ -82,7 +83,6 @@ ideas = {
 			modifier = {
 				drift_defence_factor = 0.05
 				justify_war_goal_time = 0.25
-				enemy_justify_war_goal_time = 0.15
 			}
 			cancel_if_invalid = no
 		}
